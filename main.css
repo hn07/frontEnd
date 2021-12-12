@@ -1,6 +1,10 @@
 h2 {
     color: rgb(255, 0, 0); font-size: 30px;
 }
+#gentel:hover{
+
+    background-color: rgba(224, 224, 224); font-size: 15px;
+}
 #n01{
     color:#1417dd; font-size: 20px;
 }
@@ -10,6 +14,23 @@ h2 {
 #main{
     color:rgb(35, 199, 144); font-size: medium;
 }
-.cha .con{
-    color: #2cb973; font-size: 50px;
+.cha{
+    color: hsl(249, 73%, 55%) !important; font-size: 50px;
 }
+/* đặt biến */
+
+    :root{
+        --mau-tuy-chinh:rgb(25, 0, 255); font-size: larger;
+    }
+    h1{
+    --test-mau: hsl(0, 0%, 0%);
+        color: var(--test-mau);
+    }
+    h2{
+        color: var(--mau-tuy-chinh);
+    }
+    .text{
+        color: var(--text-color);
+    }
+    
+
